@@ -56,7 +56,9 @@
     "main-bower-files": "^2.11.1",
     "merge2": "^1.0.1",
     "minimist": "^1.2.0",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "serve-index": "^1.0.3",
+    "serve-static": "^1.9.3",
+    "static-favicon": "github:expressjs/serve-favicon#v1.0.2"
   }
-
 }
