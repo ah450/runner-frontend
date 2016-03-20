@@ -32,18 +32,26 @@
       overflow: hidden;
       padding: 0;
     }
+    
+    &.expand .message-container {
+      overflow: auto;
+      border: 1px dashed #000;
+      padding: .3em;
+    }
   }
 
   .result-compilation-error {
     max-width: 100%;
     word-wrap: break-word;
     margin-top: .3em;
+    white-space: pre;
+    font-family: monospace;
   }
 
   .message-container {
     font-size: .5em;
     line-height: 1.2em;
-    max-width: 80%;
+    max-width: 100%;
   }
 
 }
