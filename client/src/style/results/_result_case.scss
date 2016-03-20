@@ -7,6 +7,9 @@
   .result-case-detail {
     font-size: .5em;
     line-height: 1.2em;
+    white-space: pre;
+    font-family: monospace;
+    overflow: auto;
   }
 
   .result-case-name {

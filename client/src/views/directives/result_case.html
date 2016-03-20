@@ -4,5 +4,5 @@
     <p class="result-case-grade">{{case.grade}}/{{case.max_grade}}</p>
   </div>
   <div data-ng-show="case.detail.trim().length > 0" class="result-head-detail-seperator"></div>
-  <p class="result-case-detail break-word">{{case.detail}}</p>
+  <p data-ng-show="case.detail.trim().length > 0" class="result-case-detail break-word">{{case.detail}}</p>
 </div>
